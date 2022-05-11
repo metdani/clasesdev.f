@@ -1,0 +1,116 @@
+body{
+    border:0px solid #002868;
+    margin: 0px;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    background-color: #002868;
+}
+
+.left{
+    border: 2px solid #002868;
+    margin: 0px;
+    width: 37%;
+    height: 100%;
+    background-color: #002868;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right{
+    border: 2px solid #002868;
+    margin: 0px;
+    width: 65%;
+    height: 100%;
+    background-color: #002868;
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: column;
+}
+
+.blanco_upper_left{
+    border: 2px solid white;
+    margin: 0px;
+    width: 80%;
+    height: 42%;
+    background-color: white;
+    display: flex;
+}
+
+.rojo_upper_left{
+    border: 2px solid #EF2B2D;
+    margin: 0px;
+    width: 88%;
+    height: 88%;
+    background-color: #EF2B2D;
+    display: flex;
+
+}
+
+.blanco_bottom_left{
+    border: 2px solid white;
+    margin: 0px;
+    width: 80%;
+    height: 42%;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.rojo_bottom_left{
+    border: 2px solid #EF2B2D;
+    margin: 0px;
+    width: 88%;
+    height: 88%;
+    background-color: #EF2B2D;
+    display: flex;
+    align-items: flex-end;
+}
+
+.blanco_upper_right{
+    border: 2px solid white;
+    margin: 0px;
+    width: 100%;
+    height: 42%;
+    background-color: white;
+    display: flex;
+    justify-content: right;
+}
+
+.rojo_upper_right{
+    border: 2px solid #EF2B2D;
+    margin: 0px;
+    width: 95%;
+    height: 88%;
+    background-color: #EF2B2D;
+    display: flex;
+    justify-content: right;
+}
+
+.blanco_bottom_right{
+    border: 2px solid white;
+    margin: 0px;
+    width: 100%;
+    height: 42%;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.rojo_bottom_right{
+    border: 2px solid #EF2B2D;
+    margin: 0px;
+    width: 95%;
+    height: 88%;
+    background-color: #EF2B2D;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+
+
+
